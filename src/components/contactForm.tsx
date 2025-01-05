@@ -18,7 +18,7 @@ export default function ContactForm() {
     e.preventDefault();
 
     const templateParams = {
-      to_name: "Taha Ahmed",
+      to_name: "Farah Almas",
       from_name: name,
       from_email: email,
       message: message
@@ -59,7 +59,7 @@ export default function ContactForm() {
           <div className="space-y-4 mb-16">
             <div className="flex items-center gap-3">
               <EnvelopeIcon className="w-4 h-4 text-[#A91079]" />
-              <span className="text-sm">SaulDesign@gmail.com</span>
+              <span className="text-sm">DaulDesign@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 bg-[rgba(87,10,87,0.5)] border border-[#A91079] p-4 rounded-lg">
               <PhoneIcon className="w-4 h-4 text-[#A91079]" />
